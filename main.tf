@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "pawel-ltd"
+    organization = "pawel-training"
 
     workspaces {
       name = "api-workflow"
